@@ -81,19 +81,19 @@ namespace lesson_01
 
         public static void Exercise2()
         {
-            int first_number = int.Parse(Console.ReadLine());
-            int second_number = int.Parse(Console.ReadLine());
+            double first_number = int.Parse(Console.ReadLine());
+            double second_number = int.Parse(Console.ReadLine());
 
-            int sum = first_number + second_number;
+            double sum = first_number + second_number;
             Console.WriteLine(sum);
 
-            int subtraction = first_number - second_number;
+            double subtraction = first_number - second_number;
             Console.WriteLine(subtraction);
 
-            int multiplication = first_number * second_number;
+            double multiplication = first_number * second_number;
             Console.WriteLine(multiplication);
 
-            int division = first_number / second_number;
+            double division = first_number / second_number;
             Console.WriteLine(division);
         }
 

@@ -1,12 +1,12 @@
 programa {
     funcao inicio() {
-        inteiro first_number
-        inteiro second_number
+        real first_number
+        real second_number
         
-        inteiro sum
-        inteiro subtraction
-        inteiro multiplication
-        inteiro division
+        real sum
+        real subtraction
+        real multiplication
+        real division
         
         escreva("Type the fist number: ")
         leia(first_number)
